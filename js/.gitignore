@@ -1,0 +1,3 @@
+# js specific ignores
+node_modules
+/out
