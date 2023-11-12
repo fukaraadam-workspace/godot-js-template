@@ -3,9 +3,9 @@
 		"watch": "tsc -w -p .",
 		"compile": "tsc -p ."
 	},
+	"type": "module",
 	"devDependencies": {
-		"typescript": "^3.9.7"
+		"typescript": "^5.2.2"
 	},
 	"types": "godot.d.ts"
 }
-

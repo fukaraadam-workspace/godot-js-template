@@ -1,2 +1,6 @@
 # Godot 4+ specific ignores
 .godot/
+
+# js specific ignores
+node_modules
+/src/out
