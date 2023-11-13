@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "[gdscript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false
+  },
+  "[csharp]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+  }
+}
