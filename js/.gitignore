@@ -1,3 +1,4 @@
 # js specific ignores
 node_modules
-/out
+dist
+out
