@@ -1,10 +1,17 @@
 {
 	"scripts": {
+		"dev": "node build.js",
+		"build": "node build.js --release",
+		"build-command-example": "esbuild index.mts --format=esm --bundle --minify --sourcemap --outfile=../out/index.mjs",
 		"watch": "tsc -w -p .",
 		"compile": "tsc -p ."
 	},
 	"type": "module",
+	"dependencies": {
+		"random-int": "^3.0.0"
+	},
 	"devDependencies": {
+		"esbuild": "0.19.5",
 		"prettier": "^3.0.3",
 		"typescript": "^5.2.2"
 	},
