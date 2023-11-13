@@ -13,10 +13,9 @@ This is a template for creating a Godot project that uses Javascript for scripti
 
 ## Credit
 
-<!-- Worked on below template while creating this template, didn't copy any code -->
 [Godot typescript start template](https://github.com/citizenll/godot-typescript-starter): Inspaired by this template (Curently works for Godot 3.x)
 
-[Godot Javascript](https://github.com/Geequlim/ECMAScript)
+[Godot Javascript](https://github.com/Geequlim/ECMAScript): Javascript support for Godot. Check it out for documentation and more.
 
 <!-- Links Used through document -->
 
