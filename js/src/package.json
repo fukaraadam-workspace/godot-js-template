@@ -2,7 +2,7 @@
 	"scripts": {
 		"dev": "node build.js",
 		"build": "node build.js --release",
-		"build-command-example": "esbuild index.mts --format=esm --bundle --minify --sourcemap --outfile=../out/index.mjs",
+		"build-command-example": "esbuild node.ts --format=esm --bundle --minify --sourcemap --outfile=../out/node.mjs",
 		"watch": "tsc -w -p .",
 		"compile": "tsc -p ."
 	},
