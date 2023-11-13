@@ -5,7 +5,7 @@ This is a template for creating a Godot project that uses Javascript for scripti
 ## Usage
 
 1. Clone this repository
-2. Go to `./js/src`. Run `npm install`. Run `npm run compile`
+2. Go to `./js/src`. Run `npm install`. Run `npm run dev`
 3. Open the project in Godot
 4. Run the project
 5. Watch console
