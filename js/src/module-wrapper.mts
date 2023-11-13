@@ -1,4 +1,4 @@
-import { randomInteger } from './out/index.js';
+import { randomInteger } from './index';
 
 export default class ModuleWrapper extends godot.Node {
 	constructor() {
@@ -11,5 +11,5 @@ export default class ModuleWrapper extends godot.Node {
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	_process(delta) { }
+	_process(delta) {}
 }
