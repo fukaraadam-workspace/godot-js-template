@@ -1,4 +1,4 @@
-import { randomInteger } from './index';
+import { randomInteger } from './thirdpart';
 
 export default class ModuleWrapper extends godot.Node {
 	constructor() {
