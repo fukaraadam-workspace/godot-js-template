@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxj3lf7f6yabx"]
+
+[ext_resource type="Script" path="res://js/module-wrapper.mjs" id="1_jdoe3"]
+[ext_resource type="Script" path="res://js/single-module.mjs" id="1_pfchy"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_jdoe3")
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("1_pfchy")
