@@ -3,8 +3,49 @@
 [ext_resource type="Script" path="res://js/single-module.mjs" id="1_pfchy"]
 [ext_resource type="Script" path="res://js/out/node.mjs" id="1_sggyx"]
 
-[node name="Node" type="Node"]
-script = ExtResource("1_sggyx")
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
-[node name="Node" type="Node" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="HBoxContainerSM" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 25
+alignment = 1
 script = ExtResource("1_pfchy")
+
+[node name="Button" type="Button" parent="VBoxContainer/HBoxContainerSM"]
+layout_mode = 2
+text = "Random Number with Single Module: "
+
+[node name="LabelSingleModule" type="Label" parent="VBoxContainer/HBoxContainerSM"]
+layout_mode = 2
+
+[node name="HBoxContainerMW" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 25
+alignment = 1
+script = ExtResource("1_sggyx")
+"label " = NodePath("LabelModuleWrapper")
+
+[node name="Button" type="Button" parent="VBoxContainer/HBoxContainerMW"]
+layout_mode = 2
+text = "Random Number with Module Wrapper: "
+
+[node name="LabelModuleWrapper" type="Label" parent="VBoxContainer/HBoxContainerMW"]
+layout_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainerMW/Button" to="VBoxContainer/HBoxContainerMW" method="_on_button_pressed"]
