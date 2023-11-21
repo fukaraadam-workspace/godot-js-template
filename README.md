@@ -7,7 +7,7 @@ This is a template for creating a Godot project that uses Javascript for scripti
 1. Clone this repository
 2. Go to `./js/src`. Run `npm install`. Run `npm run dev`
 3. Open the project in [Godot Javascript Release][Godot Javascript v4.x Release]
-   1. Ignore `Parse source code from file..` error. If script is edited on Godot directly, error goes away.
+   1. Ignore errors lik `Parse source code from file..`. If script is edited on Godot directly, error goes away.
 4. Run the project
 5. Watch console
 

@@ -30,7 +30,7 @@ script = ExtResource("1_np162")
 
 [node name="Button" type="Button" parent="VBoxContainer/HBoxContainerSM"]
 layout_mode = 2
-text = "Random Number with Single Module: "
+text = "Increase Number with Single Module: "
 
 [node name="LabelSingleModule" type="Label" parent="VBoxContainer/HBoxContainerSM"]
 layout_mode = 2
