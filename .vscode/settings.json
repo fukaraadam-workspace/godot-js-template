@@ -2,7 +2,7 @@
   "editor.formatOnSave": false,
   "[gdscript]": {
     "editor.detectIndentation": false,
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.insertSpaces": false
   },
   "[csharp]": {
